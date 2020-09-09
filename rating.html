@@ -243,13 +243,13 @@ box-shadow: 1px 1px 2px 0px rgba(110,110,110,1);
 
 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 360px) {
 
 
     .ratingbutton p{
     color: grey;
     font-size: 12px;
-    padding-top: 2px;
+    padding-top: 1px;
 
 }
 
@@ -261,15 +261,35 @@ box-shadow: 1px 1px 2px 0px rgba(110,110,110,1);
 
 }
 
+.misschien {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.buttonrow a{
+    height: 35px;
+    width: 35px;
+}
+
+
+@media only screen and (max-width: 470px){
+
+    .misschien {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}   
 
 </style>
 
 
 
 
-    <div class="row mt-4 ratingtext" style="justify-content: center; margin-bottom: -10px;">
+    <div class="row mt-4 ratingtext font-weight-light" style="justify-content: center; margin-bottom: -5px; text-align: center; ">
         
-        <p class="font-weight-light">Helemaal niet</p> <p style="margin-right: 7vw; margin-left: 7vw;" class="font-weight-light">Misschien</p> <p class="font-weight-light">Echt wel</p>
+        <div class="col-4"> <p> Helemaal niet</p> </div>
+        <div class="col-4"> <p> Misschien</p> </div>
+        <div class="col-4"> <p> Echt wel </p> </div>
 
     </div>
 
@@ -351,14 +371,6 @@ box-shadow: 1px 1px 2px 0px rgba(110,110,110,1);
 </tbody>
 </table>
 <!--[if (IE)]></div><![endif]-->
-
-
-
-
-
-
-
-
 
 
 
